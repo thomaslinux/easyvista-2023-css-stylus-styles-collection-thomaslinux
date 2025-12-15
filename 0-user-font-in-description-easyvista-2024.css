@@ -1,0 +1,21 @@
+/* ==UserStyle==
+@name           pas de polices utilisateurs dans description
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    pas de polices utilisateurs dans description donc pas de Comic Sans MS, supprime également les polices utilisateurs dans la bulle normalement
+@author         thomaslinux
+==/UserStyle== */
+
+@-moz-document domain("easyvista") {
+	/* pas de police utilisateur dans la description */
+    .form-input-container * {
+        font-family: inherit !important;
+        font-size: 1.05rem !important;
+    }
+	/* pas de police utilisateur dans la bulle */
+	.WordSection1 * {
+		font-size: 1.05rem !important;
+		font-family: inherit !important;
+	}
+}
+

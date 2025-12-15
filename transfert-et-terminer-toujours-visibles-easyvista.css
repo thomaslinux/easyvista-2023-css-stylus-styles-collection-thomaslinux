@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           bouton transfert et terminer toujours visibles
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    bouton transfert et terminer toujours visibles en bas à droite de la page
+@author         thomaslinux
+==/UserStyle== */
+@-moz-document domain("easyvista") {
+	/*bouton transfert et terminer toujours visibles*/
+	.tl .tl-cats-container .tl-cat.todo-cat .tl-items-container .tl-item .tl-wrap .tl-content.expanded .tl-interact {
+		position: fixed;
+	}
+}
+

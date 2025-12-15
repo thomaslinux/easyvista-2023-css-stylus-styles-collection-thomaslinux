@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Optimise l'espace de rédaction mail de easyvista
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Optimise l'espace de l'interface de rédaction mail de easyvista en augmentant le champ de rédaction et supprimant l'espace entre envoyeur, destinataire et cc
+@author         Thomas
+==/UserStyle== */
+@-moz-document domain("easyvista") {
+	/* double la taille de la boîte de rédaction mail*/
+	.tox-tinymce {
+		height: 400px !important;
+	}
+	/* cacher les lignes vides dans la fenêtre mail pour gagner de l'espace vertical*/
+	.body-wizard .wizard-field-type-line,
+	.body-wizard .wizard-field-type-line .query_evenline3 {
+		display: flex;
+	}
+}
+

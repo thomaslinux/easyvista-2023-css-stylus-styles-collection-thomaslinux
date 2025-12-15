@@ -16,6 +16,6 @@ https://addons.mozilla.org/fr/firefox/addon/styl-us/
 On Chrome based browser (Chrome, Brave, Edge, Opera..) :
 https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo
 
-## 2. Create a style using stylus for your easyvista and copy paste the necessary code
+## 2. Go on https://userstyles.world/user/thomaslinux
 
-Maybe look for a tutorial on how to do that
+Install the easyvista styles from there, don't forget to edit the domain so it applies to your site

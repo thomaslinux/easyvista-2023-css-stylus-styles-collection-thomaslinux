@@ -1,0 +1,27 @@
+
+
+/* ==UserStyle==
+@name           pas de pepper ai
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    masque la popup de pepper ai qui se met au dessus des informations importantes mais masque aussi la popup fulltext par effet de bord
+@author         Thomas
+==/UserStyle== */
+@-moz-document domain("easyvista") {
+	/* cache pepper ai */
+	.center-panel .right-panel.sidebar-panel {
+		visibility: hidden;
+	}
+	/*	#contentPepperAIPanelContentId {
+    display: none;
+}*/
+	/* autorise la copie de texte en dessous de la popup du champ de rédaction des mails */
+	.ui-widget-overlay {
+		visibility: hidden;
+	}
+	/* cadre en bas évite le scroll horizontal*/
+	/*.related-elements .element-container .grid-container .grid-container-table .grid-container-tr .grid-container-td {
+    white-space: pre-wrap;
+}*/	/*pour être franc je sais plus à quoi ça sert*/
+}
+

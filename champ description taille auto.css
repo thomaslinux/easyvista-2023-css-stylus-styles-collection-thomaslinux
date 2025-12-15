@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           champ description taille auto
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Ajustement automatique de la taille de la description
+@author         Thomas
+==/UserStyle== */
+
+@-moz-document domain("easyvista.fr") {
+.textArea-froala-container,
+.froala-editor,
+.fr-wrapper {
+    height: auto !important; /*Ajustement automatique de la taille de la description*/
+	/*height: 400px !important; */ /*Ajustement de la taille de la description en 400px*/
+}
+}

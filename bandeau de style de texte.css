@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           bandeau de style de texte
+@namespace      userstyles.world
+@version        2.0.0
+@description    cache le bandeau de style de texte au dessus du texte dans la description
+@author         Thomas
+==/UserStyle== */
+
+@-moz-document domain("easyvista.fr"), domain("easyvista") {
+        /* cache le bandeau de style de texte au dessus du texte dans la description */
+.editorContainer div.textArea-froala-container .froala-editor.fr-box.fr-basic .fr-toolbar.fr-desktop.fr-bottom.fr-basic {
+    position: relative;
+    visibility:hidden;
+}
+.offcanvas.active {
+    visibility: hidden;
+}
+}

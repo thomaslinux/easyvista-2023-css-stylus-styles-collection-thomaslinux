@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name           masquer les colonnes inutiles
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Modifie toutes les vues, n'utiliser qu'avec la vue groupe. Cache les colonnes sans informations essentielles pour éviter de devoir utiliser le scroll horizontal
+@author         Thomas
+==/UserStyle== */
+@-moz-document domain("easyvista") {
+	/* masquer 3 colonnes inutiles dans la vue groupe*/
+	/*masquer localisation*/
+	tr.initial-outline.infinite-item td.odd:nth-of-type(10),
+	tr.initial-outline.infinite-item td.even:nth-of-type(10),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(10),
+	/*masquer entité*/
+	tr.initial-outline.infinite-item td.odd:nth-of-type(11),
+	tr.initial-outline.infinite-item td.even:nth-of-type(11),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(11),
+	/*masquer Numéro d'appel*/
+	tr.initial-outline.infinite-item td.odd:nth-of-type(12),
+	tr.initial-outline.infinite-item td.even:nth-of-type(12),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(12) {
+		display: none;
+	}
+
+	/*sujet sur deux lignes*/
+	tr.initial-outline.infinite-item td.odd:nth-of-type(13),
+	tr.initial-outline.infinite-item td.even:nth-of-type(13) {
+		text-wrap: wrap;
+	}
+
+	/* wrap le texte des colonnes*/
+	tr.initial-outline.infinite-item td {
+		text-wrap: wrap;
+	}
+
+	/*garder une visibilité sans discrimination pour les en-têtes de colonnes*/
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th {
+		width: 100px !important;
+		background-color: #f0f0f0;
+
+		font-weight: bold;
+	}
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer {
+		width: 1600px !important;
+	}
+	tr {
+		left: 0px;
+	}
+	tbl-header-fixed-wrapper {
+		left: 0px;
+	}
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(1),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(2),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(3) {
+		display: none;
+	}
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(4),
+	/*.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(6),*/
+	/*numero incident*/
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(7),
+	.tbl-header-fixed.table.order-column.hover.dataTable.no-footer th:nth-child(9) {
+		display: none;
+	}
+
+	/* réduire la largeur minimale des colonnes*/
+	.ezv-grid .ezv-row-number ~ td {
+		min-width: 10px;
+	}
+}
+

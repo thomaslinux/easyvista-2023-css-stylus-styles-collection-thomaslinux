@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           déplace la bulle d'aperçu de description
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    déplace la bulle d'aperçu de description à une position fixe pour qu'elle ne chevauche pas les boutons de description
+@author         Thomas
+==/UserStyle== */
+@-moz-document domain("easyvista.fr") {
+	/*déplace la bulle pour qu'elle ne chevauche pas les boutons de description*/
+	#bulle {
+		left: 500px !important;
+		/*    top:100px !important;*/
+	}
+}

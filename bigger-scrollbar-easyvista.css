@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           bigger scrollbar
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Augmente la taille du bouton de défilement / scrollbar et change sa couleur
+@author         thomaslinux
+==/UserStyle== */
+@-moz-document domain("mydsi-bo.sodiaal.fr"), domain("easyvista") {
+	.custom-scroll {
+		scrollbar-width: auto;
+		scrollbar-color: #000000 var(--customscrollbar-track-bgcolor);
+	}
+}

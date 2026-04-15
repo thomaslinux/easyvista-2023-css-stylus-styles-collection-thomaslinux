@@ -10,12 +10,15 @@ UserStyles to be used with OpenStyles/stylus to modify the css of easyvista 2023
 Install the OpenStyles/Stylus extension on your browser : 
 
 On Firefox :
+
 https://addons.mozilla.org/fr/firefox/addon/styl-us/
 
 On Chrome based browser (Chrome, Brave, Edge, Opera..) :
+
 https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo
 
 Manual download / Other :
+
 https://github.com/openstyles/stylus
 
 ## 2. Install the styles

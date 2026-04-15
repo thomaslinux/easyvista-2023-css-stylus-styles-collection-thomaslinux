@@ -13,7 +13,7 @@ On Firefox :
 
 https://addons.mozilla.org/fr/firefox/addon/styl-us/
 
-On Chrome based browser (Chrome, Brave, Edge, Opera..) :
+On a Chrome based browser (Chrome, Brave, Edge, Opera..) :
 
 https://chrome.google.com/webstore/detail/stylus-beta/apmmpaebfobifelkijhaljbmpcgbjbdo
 

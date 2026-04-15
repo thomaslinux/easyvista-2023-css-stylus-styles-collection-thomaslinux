@@ -1,7 +1,7 @@
 # EasyVista 2023 userstyles collection
 
-UserStyles to be used with OpenStyles/stylus to modify the css of easyvista 2023
-(some were incompatible the 2024 version).
+UserStyles to be used with OpenStyles/stylus to modify the css of easyvista 2023 (some are broken with the 2024 version).
+From when I was working with easyvista and needed some changes in the interface to make it more usable
 
 # How to use
 
